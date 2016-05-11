@@ -9,7 +9,7 @@ System.register([], function(exports_1, context_1) {
                 function CourseService() {
                 }
                 CourseService.prototype.getCourses = function () {
-                    return ["Course1", "Course2", "Course3"];
+                    return ["Angular2 Basic Course", "Angular2 Deepdrive", "Angular2 Best practise"];
                 };
                 return CourseService;
             }());

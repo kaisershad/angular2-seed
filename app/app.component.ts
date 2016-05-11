@@ -1,13 +1,15 @@
 import {Component} from 'angular2/core';
 import {CoursesComponent} from "./courses.component";
 import {AuthorsComponent} from "./authors.component";
+import {SearchfieldComponent} from "./searchfield.component";
 
 @Component({
     selector: 'my-app',
     template: `
-        <h1>Hello Angular2</h1>
+        <h1>Welcome to our learning group</h1>
+        <searchfield></searchfield>
         <courses></courses>
         <authors></authors>`,
-    directives: [CoursesComponent, AuthorsComponent]
+    directives: [SearchfieldComponent, CoursesComponent, AuthorsComponent]
 })
 export class AppComponent { }

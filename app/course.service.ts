@@ -1,6 +1,6 @@
 
 export class CourseService {
     getCourses() : string[] {
-        return ["Course1", "Course2", "Course3"];
+        return ["Angular2 Basic Course", "Angular2 Deepdrive", "Angular2 Best practise"];
     }
 }

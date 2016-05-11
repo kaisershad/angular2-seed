@@ -1,0 +1,15 @@
+/* Master Styles*/
+
+h1 {
+    color: #1a2c51;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+}
+h2 {
+    color: #006dcc;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: x-large;
+}
+div {
+    background-color: #d6e0f5;
+}
